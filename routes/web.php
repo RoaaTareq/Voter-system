@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/questionnaire', [QuestionController::class, 'index']);
-Route::post('/submit-answers', [AnswerController::class, 'store']);
-Route::get('/result/{user}', [PersonalityProfileController::class, 'show']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
