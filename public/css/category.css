@@ -1,0 +1,10 @@
+.cards{
+padding: 12px;
+border-radius: 14px;
+background-color:  hsl(215, 32%, 27%);
+margin:   20px;
+color:white;
+position: relative;
+transform: translate(0%, 180%);
+   
+}
