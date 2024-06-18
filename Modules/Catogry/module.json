@@ -1,0 +1,11 @@
+{
+    "name": "Catogry",
+    "alias": "catogry",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Catogry\\Providers\\CatogryServiceProvider"
+    ],
+    "files": []
+}
